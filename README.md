@@ -1,43 +1,34 @@
-# Hi there! I'm Javier Villaverde Jiménez 👋
+# Javier Villaverde Jiménez
 
-**Software & AI Engineer | Passionate about DevOps, HPC & Applied Artificial Intelligence**
-📍 Getafe, Madrid · Computer Science Graduate from Universidad Carlos III de Madrid
+**Software & AI Engineer** · Python · C++ · FastAPI · PyTorch
+📍 Getafe, Madrid · Computer Engineering graduate, Universidad Carlos III de Madrid
 
-## 👨‍💻 About Me
-I'm a Computer Science engineer with a strong focus on building resilient backend architectures, automating deployments, and optimizing complex systems. My experience bridges the gap between software engineering and artificial intelligence, deploying deep learning models into real-time environments.
+I build backend services and applied AI systems, from deep learning models on time series to the containers and pipelines that run them. From February to August 2026 I worked as a Data Science Engineer intern at Bertrandt Group, and I enjoy performance work (parallel C++, HPC clusters) and DevOps.
 
-I thrive in agile teams and enjoy tackling performance challenges, whether it's parallelizing C++ code in High-Performance Computing (HPC) clusters, designing containerized microservices, or setting up monitoring pipelines.
+🔎 **Currently looking for a junior position in software development or AI** (Madrid, hybrid or remote).
 
-## 🚀 Featured Projects
+## Featured projects
 
-### 🌩️ Cloud, DevOps & High-Performance Computing
-* **[CPD Remote Climate Control (TFG)](#)**
-  A full remote monitoring and IR control system for a Data Center. Built a REST API with FastAPI and deployed the architecture using **Podman** on an **HPC cluster**. Features real-time system monitoring using **Prometheus & Grafana**.
-* **[3D RayCasting Engine in C++23](#)**
-  A 3D renderer built from scratch focusing on extreme performance. Implemented multithreading parallelization using **oneTBB**, successfully testing and scaling the engine up to 256 threads on the university's HPC cluster.
+| Project | What I built | Stack | Code |
+|---|---|---|---|
+| **CPD Remote Climate Control**<br>Final degree project, grade 9.7/10 | End-to-end remote monitoring and infrared control of a university data center: REST API, computer vision with OpenCV, and Prometheus/Grafana monitoring deployed with Podman on an HPC cluster. | Python, FastAPI, OpenCV, Prometheus, Grafana, Podman | 🔒 Private for now |
+| **NewsRadar**<br>DevOps course, team project | News aggregation platform with RSS monitoring and IPTC classification. I developed the backend and took part in the frontend and the CI/CD pipeline. | FastAPI, PostgreSQL, Elasticsearch, React/TypeScript, Docker, GitHub Actions, SonarCloud | [Repository](https://github.com/DevOpsUC3M-gr84-A/DevOps-gr84-A) |
+| **3D ray tracer in C++23**<br>Computer Architecture course | Ray tracer written from scratch (spheres, cylinders, matte/metal/refractive materials), then parallelized with oneTBB and benchmarked on the university cluster with up to 256 threads. | C++23, oneTBB, CMake | 🔒 Private (course policy) |
+| **IoT fleet platform**<br>IoT course | Multithreaded Raspberry Pi device (sensors, NFC reader, servo, DC motor) publishing over MQTT to a GCP microservices backend with a web dashboard. | Python, Raspberry Pi, MQTT, Flask, MariaDB, Docker, GCP | 🔒 Private (course policy) |
+| **Disaster damage segmentation**<br>Computer Vision course, team of 3 | Semantic segmentation of satellite imagery (xBD) with DeepLabV3, comparing loss functions to handle severe class imbalance. | PyTorch, DeepLabV3 | 🔒 Private (course policy) |
+| **Drowsiness prediction**<br>Bertrandt Group, internship | Deep learning on ocular time series to predict microsleeps, plus a real-time demo (Python, later C++/Qt). Confidential: no code or data are public. | PyTorch, TensorFlow, MediaPipe, C++/Qt | 🔒 Confidential |
 
-### 🌐 Backend & Distributed Systems
-* **[IoT Fleet Management Platform](#)**
-  A complete IoT architecture for refrigerated trucks. Built multithreaded services on Raspberry Pi communicating via **MQTT** to **GCP**. Deployed a microservices backend (Flask, MariaDB, web dashboard) entirely containerized with **Docker**.
-* **[NewsRadar](#)**
-  A full-stack news aggregation platform. Developed the backend using **FastAPI, PostgreSQL, and Elasticsearch**, and actively participated in the **DevOps pipeline** (CI/CD, GitHub Actions, Docker).
+> Some projects come from coursework or industry work and cannot be published. I'm happy to walk through any of them in an interview.
 
-### 🤖 Applied AI & Computer Vision
-* **[Real-Time Drowsiness Prediction (Bertrandt Group)](#)**
-  Developed during my internship: a real-time AI demonstration bridging **Python and C++/Qt** to predict microsleeps using Time Series analysis (CNN/LSTM) and MediaPipe. Implemented parallel processing to ensure zero-latency execution.
-* **[xBD Disaster Damage Segmentation](#)**
-  Semantic segmentation project using **DeepLabV3** and **PyTorch** to assess disaster damage from satellite imagery, implementing custom loss functions to handle severe class imbalance.
+## Tech stack
 
-## 🧰 Tech Stack
+- **Languages:** Python · C · C++ (Qt) · SQL · TypeScript/JavaScript
+- **AI/ML:** PyTorch · TensorFlow/Keras · scikit-learn · OpenCV · MediaPipe
+- **Backend & data:** FastAPI · Flask · PostgreSQL · MariaDB · MongoDB · Elasticsearch · MQTT
+- **DevOps & infrastructure:** Docker · Podman · GCP · GitHub Actions · SonarCloud · Prometheus · Grafana · Linux
+- **Hardware:** Raspberry Pi
 
-**💻 Languages:** Python, C, C++ (Qt), SQL, TypeScript, JavaScript, Bash
+## Contact
 
-**⚙️ ML & Frameworks:** PyTorch, TensorFlow, FastAPI, Flask, OpenCV, MediaPipe
-
-**🚀 DevOps & Infra:** Docker, Podman, GCP, GitHub Actions, Prometheus, Grafana, Linux
-
-**🗄️ Databases:** PostgreSQL, MariaDB, MongoDB, Elasticsearch
-
-## 📬 Let's Connect
-* 🌐 **LinkedIn:** https://www.linkedin.com/in/javier-villaverde-jimenez
-* 📧 **Email:** javvillajime@gmail.com
+- LinkedIn: [javier-villaverde-jimenez](https://www.linkedin.com/in/javier-villaverde-jimenez)
+- Email: [javvillajime@gmail.com](mailto:javvillajime@gmail.com)
